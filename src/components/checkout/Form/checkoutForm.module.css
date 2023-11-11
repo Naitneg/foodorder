@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 5px;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.form-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.form-content img {
+  width: 230px;
+  height: auto;
+  clip-path: circle(60%);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+}
